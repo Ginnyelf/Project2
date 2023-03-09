@@ -1,16 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int amount_first = 100;
-        int amount_add = 1100;
+        int amountFirst = 100;
+        int amountAdd = 1100;
         int bonus;
-        if (amount_add >= 1000) {
+        if (amountAdd >= 1000) {
             bonus = 100;
-        }
-        else {
+        } else {
             bonus = 10000;
         }
 
-        System.out.println(" Итоговый счет " + (amount_first + amount_add+amount_add/bonus));
-        System.out.println(" Из них Бонусные рубли " + (amount_add/bonus));
+        System.out.println(" Итоговый счет " + (amountFirst + amountAdd + amountAdd / bonus));
+        System.out.println(" Из них Бонусные рубли " + (amountAdd / bonus));
     }
 }
